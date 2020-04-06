@@ -1,0 +1,49 @@
+{
+  "$id": "theme",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Theme",
+  "apiName": "c_theme",
+  "description": "",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "type.option",
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "Environment",
+              "textValue": "ENVIRONMENT"
+            },
+            {
+              "displayName": "Education",
+              "textValue": "EDUCATION"
+            },
+            {
+              "displayName": "Health",
+              "textValue": "HEALTH"
+            },
+            {
+              "displayName": "Arts",
+              "textValue": "ARTS"
+            },
+            {
+              "displayName": "Criminal Justice",
+              "textValue": "CRIMINAL_JUSTICE"
+            },
+            {
+              "displayName": "Hunger \u0026 Homelessness",
+              "textValue": "HUNGER_\u0026_HOMELESSNESS"
+            },
+            {
+              "displayName": "Immigration",
+              "textValue": "IMMIGRATION"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

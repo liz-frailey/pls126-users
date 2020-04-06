@@ -1,0 +1,10 @@
+{
+  "$id": "cta",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "CTA",
+  "apiName": "c_cta",
+  "description": "",
+  "typeId": "cta",
+  "localization": "PRIMARY_ONLY",
+  "group": "GROUP1"
+}

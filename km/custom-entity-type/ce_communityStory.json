@@ -1,0 +1,67 @@
+{
+  "$id": "ce_communityStory",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_communityStory",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "entity.landing_page_url",
+      "required": false
+    },
+    {
+      "id": "event.organizer_email",
+      "required": false
+    },
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "cta",
+      "required": false
+    },
+    {
+      "id": "goal",
+      "required": false
+    },
+    {
+      "id": "localNonProfits",
+      "required": false
+    },
+    {
+      "id": "promotingEvents",
+      "required": false
+    },
+    {
+      "id": "territory",
+      "required": false
+    },
+    {
+      "id": "theme",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    },
+    {
+      "id": "location.youtube_videos",
+      "required": false
+    }
+  ],
+  "description": "This is a description. ",
+  "displayName": "Community Story",
+  "pluralDisplayName": "Community Stories"
+}

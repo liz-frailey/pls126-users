@@ -1,0 +1,35 @@
+{
+  "$id": "cta",
+  "$schema": "https://schema.yext.com/config/km/custom-field-type/v1",
+  "displayName": "CTA",
+  "apiName": "c_cta",
+  "description": "",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "label",
+          "displayName": "Label",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "url",
+          "displayName": "URL",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$id": "localNonProfits",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Local Non-Profits",
+  "apiName": "c_localNonProfits",
+  "description": "",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "type.string",
+      "type": {
+        "stringType": {
+          "stereotype": "SIMPLE"
+        }
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

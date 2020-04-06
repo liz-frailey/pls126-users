@@ -1,0 +1,31 @@
+{
+  "$id": "restaurant",
+  "$schema": "https://schema.yext.com/config/km/built-in-entity-type/v1",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "associatedCommunityStories",
+      "required": false
+    },
+    {
+      "id": "deliveryDisclaimer",
+      "required": false
+    },
+    {
+      "id": "deliveryHours",
+      "required": false
+    },
+    {
+      "id": "hasOutdoorSeating",
+      "required": false
+    },
+    {
+      "id": "restaurantType",
+      "required": false
+    },
+    {
+      "id": "territory",
+      "required": false
+    }
+  ]
+}

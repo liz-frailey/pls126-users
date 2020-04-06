@@ -1,0 +1,13 @@
+{
+  "$id": "hasOutdoorSeating",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Has Outdoor Seating",
+  "apiName": "c_hasOutdoorSeating",
+  "description": "",
+  "typeId": "type.boolean",
+  "type": {
+    "booleanType": {}
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

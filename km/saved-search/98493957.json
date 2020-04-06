@@ -1,0 +1,23 @@
+{
+  "$id": "98493957",
+  "$schema": "https://schema.yext.com/config/km/saved-search/v1",
+  "name": "Hours Data Check",
+  "filter": {
+    "entityType": [
+      {
+        "entityTypeId": [
+          "restaurant"
+        ],
+        "type": "IS"
+      }
+    ],
+    "fieldsWithoutData": [
+      {
+        "fieldId": [
+          "yext.hours"
+        ],
+        "type": "ANY"
+      }
+    ]
+  }
+}

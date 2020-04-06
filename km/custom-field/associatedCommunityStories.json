@@ -1,0 +1,22 @@
+{
+  "$id": "associatedCommunityStories",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "AssociatedCommunityStories",
+  "apiName": "c_associatedCommunityStories",
+  "description": "",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "type.entity_reference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "ce_communityStory"
+          ]
+        }
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}
